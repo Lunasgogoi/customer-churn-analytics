@@ -1,0 +1,8 @@
+Factor,EDA evidence,GB importance,Logistic comparison,Coefficient
+Contract: Month-to-month,Churn 42.7%; other categories 6.8%,0.3717678480361155,Two year vs Month-to-month,-1.4125356109584786
+InternetService: Fiber optic,Churn 41.9%; other categories 14.5%,0.0941049736644052,Fiber optic vs DSL,1.2223521969696218
+OnlineSecurity: No,Churn 41.8%; other categories 11.5%,0.06993926863024551,Yes vs No,-0.3349457740143778
+TechSupport: No,Churn 41.6%; other categories 11.8%,0.04852111152690225,Yes vs No,-0.26855683753598525
+PaymentMethod: Electronic check,Churn 45.3%; other categories 17.1%,0.04112957166828706,Electronic check vs Bank transfer (automatic),0.40247816338946285
+tenure,Mean churned 17.98; retained 37.57,0.14879272278778513,One standard deviation increase,-1.1561753091330251
+MonthlyCharges,Mean churned 74.44; retained 61.27,0.06769827855119573,One standard deviation increase,-0.5461886365377546

@@ -1,0 +1,53 @@
+Feature,Importance
+Contract_Month-to-month,0.3717678480361155
+tenure,0.14879272278778513
+InternetService_Fiber optic,0.0941049736644052
+TotalCharges,0.0771563504844838
+OnlineSecurity_No,0.06993926863024551
+MonthlyCharges,0.06769827855119573
+TechSupport_No,0.04852111152690225
+PaymentMethod_Electronic check,0.04112957166828706
+MultipleLines_No,0.01301299648317673
+PaperlessBilling_Yes,0.011523311338251475
+PaperlessBilling_No,0.009663929458958012
+OnlineBackup_No,0.008491016899123537
+StreamingMovies_Yes,0.0065904473051333805
+Contract_Two year,0.005830992020442592
+Contract_One year,0.004336216517199722
+Dependents_Yes,0.0024641267891448524
+SeniorCitizen_1,0.002385197050773566
+SeniorCitizen_0,0.0020543174698252013
+gender_Female,0.0017044902535706225
+StreamingTV_Yes,0.0016810815901395625
+PhoneService_Yes,0.0012903526854839361
+Dependents_No,0.0011437914908619434
+StreamingTV_No,0.001045421265289885
+TechSupport_Yes,0.0010435528665217375
+gender_Male,0.0009263836582407408
+TotalServices,0.0007779946395563023
+OnlineBackup_Yes,0.0007776215682984122
+PaymentMethod_Credit card (automatic),0.0006756237744590298
+PaymentMethod_Mailed check,0.0005924145223114352
+PaymentMethod_Bank transfer (automatic),0.0005422164897890879
+Partner_No,0.0004751676158783509
+StreamingMovies_No,0.0003354782194085725
+OnlineSecurity_Yes,0.0003207498396766445
+Partner_Yes,0.00023821727881046895
+DeviceProtection_Yes,0.00022310328650571314
+DeviceProtection_No,0.00022005135773357223
+PhoneService_No,0.0001596365897560061
+InternetService_DSL,0.00012188811238353241
+TenureGroup_0-12 months,9.953319374235621e-05
+TenureGroup_49-60 months,8.25625527798927e-05
+TenureGroup_13-24 months,5.999046735298583e-05
+InternetService_No,0.0
+MultipleLines_No phone service,0.0
+MultipleLines_Yes,0.0
+StreamingTV_No internet service,0.0
+TechSupport_No internet service,0.0
+OnlineBackup_No internet service,0.0
+DeviceProtection_No internet service,0.0
+OnlineSecurity_No internet service,0.0
+StreamingMovies_No internet service,0.0
+TenureGroup_25-48 months,0.0
+TenureGroup_61+ months,0.0
