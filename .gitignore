@@ -8,3 +8,5 @@ __pycache__/
 
 models/*.pkl
 models/*.joblib
+# Streamlit Community Cloud needs the trained prediction pipeline in the repository.
+!models/tuned_gradient_boosting.joblib

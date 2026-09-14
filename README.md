@@ -71,8 +71,9 @@ customer-churn-analytics/
 └── README.md
 ```
 
-Joblib artifacts are generated locally and ignored by Git. Run notebooks 05 and 06 to
-recreate them on a fresh checkout. Metadata and CSV outputs record the evaluated run.
+The tuned Gradient Boosting pipeline is allowed in Git because the Streamlit dashboard
+needs it during deployment. Other joblib artifacts are generated locally and ignored.
+Run notebooks 05 and 06 to recreate all models. Metadata and CSV outputs record the evaluated run.
 
 ## 7. Data Understanding
 
@@ -312,6 +313,12 @@ regenerating artifacts to clear cached data/models.
 ```bash
 streamlit run app/app.py
 ```
+
+For Streamlit Community Cloud, commit `models/tuned_gradient_boosting.joblib` along
+with the app, `src/`, processed dashboard CSVs, `models/metadata.json` and
+`requirements.txt`. Select `app/app.py` as the entrypoint. Files that exist only on
+your computer are unavailable in the cloud; a missing-model error does not require
+retraining when the saved model already exists locally.
 
 This workspace already has `.venv`; its launch command is:
 
